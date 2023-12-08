@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="nodesol.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Start navbar -->
+  <nav class=" navbar fixed-top bg-body-tertiary navbar navbar-expand-lg navbar-light  container-fluid">
+    <div class="container">
+      <img src="/img/logo.webp" class="img-fluid img-style-sm" width="17%" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link  ps-3 pt-4  fw-bold text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link   ps-3  pt-4 fw-bold text-white" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  ps-3 pt-4  fw-bold text-white" href="#"> Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link    ps-3 pt-4 fw-bold text-white " href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link    ps-2 pt-4  fw-bold text-white" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link    ps-3  pt-4  fw-bold text-white" href="#">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link    ps-3  pt-4  fw-bold text-white" href="#">Contact Us</a>
+          </li>
+          <!-- <li class="nav-item pt-4 ps-3 me-3 ">
+          <i class=" fa fa-shopping-cart text-black fs-2 "></i> -->
+          <!-- </li> -->
+          <li class="nav-item ms-2 mt-3">
+            <button type="button" class="btn1 py-2  px-3 border-0 rounded-3 text-white">
+              <i class="fa fa-rocket" aria-hidden="true"></i>
+              FREE QUOTE</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- star carsoule -->
+  <div id="carouselExampleCaptions" class="carousel slide img-2">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img width="100%" src="/img/slide-1 (1).webp" class="d-block w-100 img-fluid d-block vw-100 vh-100 obj-cover "
+          alt="..." style="filter: brightness(.3);">
+        <div class="carousel-caption d-md-block">
+          <div class="innovative">Innovative Quality <br> Solution</div>
+          <p class="fs-4 text-secondary">We are a values drien organization. Our values reflect the thinking of our
+            founder</p>
+          <button class="text-white border-0 rounded-2 ps-3 pe-3 pt-2 pb-2  btn1">
+            <i class="fa-solid fa-mug-hot"></i>
+            GET STARTED</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img width="100%" src="/img/slide-2 (1).webp" class="d-block w-100" alt="..." style="filter: brightness(.3);">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="web">Web bring cutting<br> edge Digital<br> Solutions</div>
+          <p class="fs-4 idea">We are idea-driven, working with a strong focus on design and use experience.That's what
+            your brand and audience deserve</p>
+          <button class="text-white border-0 rounded-2 ps-3 pe-3 pt-2 pb-2 btn2">
+            <i class="fa-solid fa-mug-hot"></i>
+            GET STARTED</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--start card-rotate -->
+  <div class="container-fluid card-bg">
+    <div class="container">
+      <div class="row">
+        <div class="text-black bg-white col-sm-12 col-md-12 col-lg-6 ps-5 pt-5 are "> <span class="ps-5 pt-5">We
+            are</span><br>
+          <span class="text-primary fw-bold ps-5"> NODESOL </span>
+          <p class="fs-6 pt-3 ps-5"> NodeSol is the newest incarnation of our parent company, FiberTechOnline, which has
+            been
+            working with US clients for over a decade providing engineering consulting to small and medium sized
+            businesses. We are now taking the best of FiberTech to the enterprise level, providing Web & App
+            Development, DevOps, Consulting, Dedicated Resources, Digital Marketing services and more. With enterprise
+            projects comes a new level of auditing, security, and enhanced protocol for protecting your assets and your
+            remote staff with consideration for confidentiality, compliance and risk.</p>
+          <button class="btn1 fs-6 text-white ps-3 pe-3 pt-1 pb-1 border-0 ms-5 mb-4 ">DROP US A <br> LINK</button>
+        </div>
+        <div class="text-black bg-white col-lg-5 d-none d-lg-block rote">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end card-rotat -->
+  <!-- star card -->
+  <div class="container-fluid bg-black index">
+    <div class="container pt-5">
+      <div class="border pt-1 mt-5 border-0 border-1"></div>
+      <div class="text-white fw-bold ser">Our Services</div>
+      <div class="row">
+        <div class="text-white col-sm-12 col-lg-9 mt-4">We strive to lead in the inception, design and development of
+          most advanced business solutions, including Software development, Enterprise Applications, Integrations, Web,
+          Mobility and E-commerce.</div>
+        <div class="col-2 mt-4"> <button class="text-white border-0 pt-2 pb-2 ps-4 pe-4 rounded-3 btn1">
+            <i class="fa fa-grid-2"></i>
+            VIEW ALL</button></div>
+      </div>
+      <div class="row mt-5">
+        <div class=" col-sm-12 col-md-12 col-lg-6 card-0">
+          <div class="card-1 text-center pb-3">
+            <i class="fa-solid fa-code pt-5 con"></i>
+            <div class="fs-4 pt-4 text-white">DevOps Consultation & Automation</div>
+            <p class="ps-4 pe-4 pt-4 pb-5">We are experts in orchestrating containers and automating deployment to
+              achieve project delivery at scale. we offer Kubernetes consulting services to companies with an aim to
+              help them speed up their development and deployment process, improve productivity and reduce operational
+              cost. Kubernetes to support several container runtimes such as Docker and all major cloud platforms makes
+              it the most popular and in-demand container orchestration tool. By associating with us, we help you to
+              reap the benefits of Kubernetes technology by ensuring faster application development and delivery.</p>
+          </div>
+          <div class="bg-black card-2">
+          </div>
+        </div>
+        <div class=" col-sm-12 col-md-12 col-lg-6 card-0">
+          <div class="card-1 text-center pb-3">
+            <i class="fa-solid fa-mobile-screen pt-5 con"></i>
+            <div class="fs-4 pt-4 pb-4 text-white">Custom Software Development</div>
+            <p class="ps-4 pe-4 pt-4 pb-5">NodeSol Offers full-cycle web & mobile application development services for
+              start-ups, mid-level businesses and enterprises. Our experts are well-versed in the latest technologies
+              and skilled in using cutting-edge engineering tools. We build a high-end app that will accommodate your
+              industry-specific business requirements. We create, deploy and maintain native, web-based and hybrid
+              applications accustomed to our client needs. Beside software engineers, we employ seasoned project
+              managers, business analysts , and app str</p>
+          </div>
+          <div class="bg-black card-2">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 card-0">
+          <div class="card-1 text-center pb-3">
+            <i class="fa-solid fa-layer-group pt-5 con"></i>
+            <div class="fs-4 pt-4 pb-4 text-white">UI/UX Design</div>
+            <p class="ps-4 pe-4 pt-3 mb-5 pb-5">Our expert UI designers work to convert low-fidelity screens created by
+              UX into final design interfaces. We work closely with our clients to define, design and develop
+              transformative user experiences across all platforms. The entire process often involves studying and
+              understanding brand guidelines to create user-friendly and aesthetically pleasing user interfaces. Our
+              compelling designs and engaging user experience stand out to make the impact and win the audience's
+              attention.</p>
+          </div>
+          <div class="bg-black card-2">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 card-0">
+          <div class="card-1 text-center pb-3" style="z-index: 1000;">
+            <i class="fa-solid fa-code pt-5 con"></i>
+            <div class="fs-4 pt-4 pb-4 text-white">Digital Marketing</div>
+            <p class="ps-4 pe-4 pt-4">odeSol is dedicated to learning about and understanding your business. By building
+              a relationship with each of our clients, we can ensure our marketing strategy is built with the sole focus
+              of solving the problems your business faces. We are committed to using the best practices and staying on
+              top of the latest innovations in digital marketing. Marketing strategies are being developed every day to
+              find new ways to reach web users with the right marketing message. Whether it's a specialized SEO service,
+              paid advertising campaign, new ways to improve search results, we are constantly looking for the newest
+              and most innovative ways to connect your brand with an online audience.</p>
+          </div>
+          <div class="bg-black card-2" style="z-index: -1;">
+          </div>
+        </div>
+      </div>
+      <div class="le">
+        <img src="/img/left_shape2.png">
+      </div>
+      <div class="border border-0 text-white text-center d-none d-md-block bor-1">
+      </div>
+    </div>
+  </div>
+  <!-- end card -->
+  <div class="container-fluid bg-white">
+    <div class="text-center cap">Our Technological Capabilities</div>
+    <div class="text-center">We offer only well-recognized and time-tested technologies to support your business goals.
+    </div>
+    <div class="container">
+      <div class="row mt-5 pt-4">
+        <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+          <img width="75%" class="img-fluid shadow p-4 rounded-4 trans" src="/img/quasar.png">
+          <div class="mt-2 fs-5">QUASAR</div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+          <img width="75%" class="img-fluid shadow p-4  rounded-4 trans" src="/img/laravel.png">
+          <div class="mt-2 fs-5">LARAVEL</div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-1 text-center">
+          <img width="90%" class="img-fluid shadow p-4 rounded-4 trans" src="/img/node.js_logo.png">
+          <div class="mt-4 fs-5">NODE.JS</div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3  text-center">
+          <img width="75%" class="img-fluid shadow p-4 rounded-4 trans" src="/img/vue.js.png">
+          <div class="mt-3 fs-5">VUE.JS</div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5  text-center">
+          <img width="75%" class="img-fluid shadow p-4 rounded-4 trans" src="/img/react (1).svg">
+          <div class="mt-3 fs-5">REACT</div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5  text-center">
+          <img width="75%" class="img-fluid shadow p-4  rounded-4 trans" src="/img/kubernetes_logo (1).png">
+          <div class=" mt-3 fs-5">KUBERNETES</div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5  text-center">
+          <img width="90%" class="img-fluid shadow p-4 rounded-4 trans" src="/img/docker_logo.png">
+          <div class="mt-4 fs-5">DOCKER</div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5  text-center">
+          <img width="75%" class="img-fluid shadow p-4 rounded-4 trans" src="/img/wordpress.png">
+          <div class="mt-3 fs-5">wordpress</div>
+        </div>
+      </div>
+      <div class="bor-2">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-black">
+    <div class="container mt-5 pt-5 pb-5">
+      <div class="row mt-5 pb-5">
+        <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+          <img class="img-fluid mt-5 pt-5" src="/img/quasar-logo-2.png">
+        </div>
+        <div class="col-sm-12 col-md-8 col-lg-8 ps-5 mt-5">
+          <div class="text-info plat"> Quasar Platinum Sponsor</div>
+          <div class="text-white fs-3">
+            We are technical sponsors for Quasar, the Open source multi-platform development framework based on Vue.js
+          </div>
+          <div class="text-info mt-3">
+            We contribute to one of the most promising projects of these times, integrating cutting-edge technologies
+            particularly requested among enterprises.
+          </div>
+          <button class="dis fs-5 pt-2 pb-2 ps-2 pe-2 border-0 rounded-3 mt-4 mb-5">DISCOVER QUASAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="bor-3 mt-1">
+      </div>
+      <div class="border pt-1 border-0 border-1">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="fw-bold mt-2 why">Why NodeSol Corp</div>
+          <div>
+            For over 8 years we have been developing digital solutions for companies looking to gain better visibility
+            on the internet.
+          </div>
+          <div class="row">
+            <div class="col-6 ">
+              <div class="shadow bg-white rounded-4 text-center fs-4 mt-5 mb-4 pt-2 pb-4 ">
+                <i class="fa-solid fa-user-group liner"></i>
+                <div> Dedicated Teams</div>
+              </div>
+            </div>
+            <div class="col-6 ">
+              <div class=" shadow bg-white rounded-4 text-center fs-4 mt-5 mb-4 pt-2 pb-4">
+                <i class="fa-solid fa-ribbon liner"></i>
+                <div>
+                  <div> Efficient Execution</div>
+                </div>
+              </div>
+            </div>
+            <div class=" col-6">
+              <div class="shadow bg-white rounded-4 text-center fs-4 mt-2 mb-4 pt-2 pb-4">
+                <i class="fa-solid fa-lightbulb liner"></i>
+                <div>
+                  <div>Creative & Innovative</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="shadow bg-white  text-center rounded-4 fs-4 mt-2 mb-4 pt-2 pb-4">
+                <i class="fa-solid fa-chart-simple liner"></i>
+                <div>
+                  <div>Research & Analysis</div>
+                </div>
+              </div>
+            </div>
+            <div class=" col-6 ">
+              <div class="shadow bg-white rounded-4  text-center fs-4 mt-2 mb-4 pt-2 pb-4">
+                <i class="fa-solid fa-globe liner"></i>
+                <div>
+                  <div>Fast Communication</div>
+                </div>
+              </div>
+            </div>
+            <div class=" col-6 mb-5 pb-5 ">
+              <div class="shadow bg-white rounded-4 text-center fs-4 mt-2 mb-4 pt-2 pb-4">
+                <i class="fa-solid fa-layer-group liner"></i>
+                <div>
+                  <div>Ease of Work</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-5 pt-5">
+          <img class="img-fluid mt-3" src="/img/why-nodesol.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-black">
+    <!-- <div class="container"> -->
+    <div class="row" style="height: 600px;">
+      <div class="col-sm-12 col-md-5 col-lg-5 fw-bold ps-5 mt-5 pt-2">
+        <div class="buil ps-5">Build a Successful Product Today</div>
+        <div class=" text-secondary mb-3 ps-5 are-1">We are driven by creativity. We create innovative things to help
+          you achieve better results and consolidate yourself in the market.</div>
+        <button class="mt-5 ms-5 mb-5 text-white bg-primary border-0 ps-4 pt-2 pb-2 pe-4 rounded-3">
+          <i class="fa fa-rocket" aria-hidden="true"></i>
+          CONTACT US</button>
+      </div>
+      <div class="col-md-7 float-end d-none d-lg-block">
+        <div class="row ">
+          <marquee class="col-4" style="height: 600px;" behavior="scroll" direction="up"> <img width="100%"
+              src="/img/commercial_coop_slider.webp" alt=""></marquee>
+          <marquee class="col-4" style="height: 600px;" behavior="scroll" direction="down"> <img width="100%"
+              src="/img/clubby_slider.webp" alt=""></marquee>
+          <marquee class="col-4" style="height: 600px;" behavior="scroll" direction="up"> <img width="100%"
+              src="/img/ishop_eco_slider.webp" alt=""></marquee>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </div>
+  <div class="container-fluid bg- bluelight">
+    <div class="container pb-5">
+      <div class="text-center mt-5 fw-bold what">What the clients Say</div>
+      <div class="text-center">Client Feedback when thy use our services</div>
+      <div class="row mt-5 pt-3 mb-5 pb-5">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="shadow rounded-4">
+            <div class="bg-white text-secondary p-5">Imran Ahmed Khan Niazi HI PP is a Pakistani politician and former
+              cricket captain who served as the 22nd Prime Minister of Pakistan from August 2018 until April 2022. He is
+              the founder and chairman of the political party Pakistan Tehreek-e-Insaf. Wikipedia Born: October 5, 1952
+              (age 70 years), Lahore
+              Spouse: Bushra Bibi (m. 2018), Reham Khan (m. 2014–2015), Jemima Goldsmith (m. 1995–2004)
+              Party: Pakistan Tehreek-e-Insaf</div>
+            <div class="text-center mb-3">
+              <img width="20%" class=" rounded-circle" src="/img/dicube-ceo.jpeg" alt="">
+            </div>
+            <div class="text-center poss">
+              <button class=" text-white ps-3 pe-3 pt-2 pb-2 bg-primary rounded-3 border-0">Rene Strohmeier</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="shadow rounded-4 ">
+            <div class="bg-white text-secondary p-5">Imran Ahmed Khan Niazi HI PP is a Pakistani politician and former
+              cricket captain who served as the 22nd Prime Minister of Pakistan from August 2018 until April 2022. He is
+              the founder and chairman of the political party Pakistan Tehreek-e-Insaf. Wikipedia Born: October 5, 1952
+              (age 70 years), Lahore
+              Spouse: Bushra Bibi (m. 2018), Reham Khan (m. 2014–2015), Jemima Goldsmith (m. 1995–2004)
+              Party: Pakistan Tehreek-e-Insaf</div>
+            <div class="text-center mb-3">
+              <img width="20%" class=" rounded-circle" src="/img/JDOzXI4ydIKA5Qz6ZxIUxyc9pPGcyUqyMtwa5ERE.jpg" alt="">
+            </div>
+            <div class="text-center poss">
+              <button class=" text-white ps-3 pe-3 pt-2 pb-2 bg-primary rounded-3 border-0">AMY GARRIS</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="shadow rounded-4">
+            <div class="bg-white text-secondary p-5">Imran Ahmed Khan Niazi HI PP is a Pakistani politician and former
+              cricket captain who served as the 22nd Prime Minister of Pakistan from August 2018 until April 2022. He is
+              the founder and chairman of the political party Pakistan Tehreek-e-Insaf. Wikipedia Born: October 5, 1952
+              (age 70 years), Lahore
+              Spouse: Bushra Bibi (m. 2018), Reham Khan (m. 2014–2015), Jemima Goldsmith (m. 1995–2004)
+              Party: Pakistan Tehreek-e-Insaf</div>
+            <div class="text-center mb-3">
+              <img width="20%" class=" rounded-circle" src="/img/fix-trax-logo.png" alt="">
+            </div>
+            <div class="text-center poss">
+              <button class=" text-white ps-3 pe-3 pt-2 pb-2 bg-primary rounded-3 border-0">Fix Trax</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-black pt-5">
+    <div class="container">
+      <div class="border mt-4 pt-1 border-0 border-1"></div>
+      <div class="text-white fs-1 fw-bold">Latest Articles</div>
+      <div class="row">
+        <div class=" col-sm-6 col-lg-10 text-white mt-3">
+          Every week we publish exclusive content on various topics.
+        </div>
+        <div class="col-sm-6 col-lg-2 float-end">
+          <button class="bg-primary text-white rounded-2 border-0 ps-3 pe-3 pt-2 pb-2">
+            <i class="fa fa-message"></i>
+            VIEW ALL</button>
+        </div>
+      </div>
+      <div class="row mt-5 pt-3 pb-5">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div>
+            <img class="img-fluid" src="img/ni.webp" alt="">
+          </div>
+          <div class=" bg-light border-bottom fw-bold pt-5 ps-4 pe-3 fs-4">
+           Tips for Quick Android App Development ...
+          </div>
+          <div class="bg-light text-black ps-3 pt-3">
+            <div class="row ">
+              <div class="col-6">
+                <i class="fa-solid fa-user"></i><span class="ps-3">Nodesol</span>
+                <div>Crop</div>
+              </div>
+              <div class="col-6">
+                <i class="fa fa-clock-o" aria-hidden="true"></i><span class="ps-3">5 day ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div>
+            <img class="img-fluid" src="img/ne.webp" alt="">
+          </div>
+          <div class="bg-light border-bottom fw-bold pt-5 ps-4 pe-3 fs-4">
+           Software Development Trends ..
+          </div>
+          <div class="bg-light ps-3 pt-3">
+            <div class="row">
+              <div class="col-6">
+                <i class="fa-solid fa-user"></i><span class="ps-3">Nodesol</span>
+                <div>Crop</div>
+              </div>
+              <div class="col-6">
+                <i class="fa fa-clock-o" aria-hidden="true"></i><span class="ps-3">2 weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div>
+            <img class="img-fluid" src="img/n3.jpg" alt="">
+          </div>
+          <div class="bg-light border-bottom text-black fw-bold pt-5 ps-4 pe-3 fs-4">
+          How to Choose a Right Developer for ..
+          </div>
+          <div class="bg-light ps-3 pt-3">
+            <div class="row">
+              <div class="col-6">
+                <i class="fa-solid fa-user"></i><span class="ps-3">Nodesol</span>
+                <div>Crop</div>
+              </div>
+              <div class="col-6 text-center">
+                <i class="fa fa-clock-o" aria-hidden="true"></i><span class="ps-3">1 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+          <div>
+            <img class="img-fluid" src="img/n4.png" alt="">
+          </div>
+          <div class="bg-light border-bottom text-black fw-bold pt-5 ps-4 pe-3 fs-4">
+           Unlocking Global Talent: Hiring Offshore
+          </div>
+          <div class="bg-light ps-3 pt-3">
+            <div class="row">
+              <div class="col-6">
+                <i class="fa-solid fa-user"></i><span class="ps-3">Nodesol</span>
+                <div>Crop</div>
+              </div>
+              <div class="col-6 text-center">
+                <i class="fa fa-clock-o" aria-hidden="true"></i><span class="ps-3">1 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid ">
+    <div class="container mb-5">
+      <div class="text-center fs-1 fw-bold mt-5 pt-5">Let's Talk?</div>
+      <div class="text-center mt-4 mb-5">Talk to one of our consultants today and learn how to start leveraging your
+        business.</div>
+      <form>
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <input type="text" class="form-control pt-3 pb-3" placeholder="Name">
+          </div>
+          <div class="col-4">
+            <input type="text" class="form-control pt-3 pb-3" placeholder="Email">
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-4">
+            <input type="text" class="form-control pt-3 pb-3" placeholder="Name">
+          </div>
+          <div class="col-4">
+            <input type="text" class="form-control pt-3 pb-3" placeholder="Email">
+          </div>
+          <div class="col-8 mt-4">
+            <textarea name="message" class="form-control mb-5 pb-5  pt-3">Message</textarea>
+            <button class="bg-primary border-0 text-white rounded-2 pt-2 pb-2 ps-3 pe-3 mb-5 btn1">SEND</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="container-fluid bg-black">
+   <div class="container">
+   <div class="row pt-5 text-center">
+     <div class="col-sm-12 col-md-6 col-lg-3">
+       <img class="img-fluid" src="/img/logo (1).webp" alt="">
+       <div class="text-white fs-5 mt-4">Innovative Quality Solutions</div>
+       <div class="text-secondary mt-3 fs-5">We are a values driven
+        organization. Our values
+        reflect the thinking of our founder.</div>
+        <div class="float-start">
+        <i class="fa-brands fa-facebook-f book fs-2 me-4 mt-5"></i>
+        <i class="fa-brands fa-linkedin-in fs-2 me-4 book"></i>
+        <i class="fa-brands fa-twitter fs-2  me-4 book"></i>
+      </div>
+     </div>
+     <div class="col-sm-12 col-md-6 col-lg-3">
+       <div class="text-white fs-3 mt-3">Get in Touch</div>
+       <div class="mt-4 fs-5 driven">
+        <i class="fa fa-phone" aria-hidden="true"></i><span class="ps-2">030-54316963</span>
+       </div>
+       <div class="fs-5 mt-3 mb-3 driven">
+        <i class="fa fa-message"></i><span class="ps-2">
+          support@nodesol.com</span>
+       </div>
+       <div class="fs-5 driven">
+  <i class="fa fa-map-marker" aria-hidden="true"></i><span class="ps-2"> 473 Vetterlein Ave,
+    Hamilton, NJ 08619</span>
+       </div>
+       <button class="btn2 mt-3 ps-3 pe-3 pt-2 pb-2">
+        <i class="fa fa-message"></i> SEND A message
+       </button>
+     </div>
+     <div class="col-sm-12 col-md-6 col-lg-3">
+       <div class="fs-3 text-white mt-3">Our Services</div>
+       <div class="mt-4 fs-5 driven">Web Development</div>
+       <div class="mt-3 fs-5 driven">Mobile Apps</div>
+       <div class=" mt-3 fs-5 driven">Dedicated Resources</div>
+       <div class="mt-3 fs-5 driven">Consulting</div>
+       <div  class="mt-3 fs-5 driven">SEO & Digital Marketing</div>
+     </div>
+     <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="text-white fs-3 mt-4">Popular Tags</div>
+      <button class="bg-black border p-2 mt-3 driven">Moblie</button>
+      <button class="bg-black border p-2 ms-1 mt-3 driven">Development</button>
+      <div>
+        <button class="bg-black border p-2 mt-3 driven">Technology</button>
+        <button class="bg-black border p-2 ms-1 mt-3 driven">App</button>
+      </div>
+      <div>
+        <button class="bg-black border p-2 mt-3 driven">Webapps</button>
+        <button class="bg-black border p-2 ms-1 mt-3 driven">Business</button>
+      </div>
+      <div>
+        <button class="bg-black border  p-2 mt-3 driven">Software</button>
+        <button class="bg-black border p-2 ms-1 mt-3 driven">Industry</button>
+      </div>
+     </div>
+   </div>
+   </div>
+  </div>
+  <div class="container-fluid pt-4 pb-4 bg-dark text-center">
+     <div class="text-secondary">Copyrights © 2022 NodeSol. All rights reserved by<span>
+      <button class="text-primary border-0 bg-dark">Nodesol</button>
+     </span></div>
+  </div>
+</body>
